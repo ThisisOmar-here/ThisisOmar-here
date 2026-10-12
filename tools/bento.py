@@ -28,6 +28,7 @@ FONT_CSS = (
 )
 CLEANIQ = "data:image/png;base64," + b64("cleaniq-icon.png")
 NICETABLE = "data:image/png;base64," + b64("nicetable-icon.png")
+ZENITH = "data:image/png;base64," + b64("zenith-icon.png")
 
 INK = "#141414"
 WHITE = "#FFFFFF"
@@ -37,6 +38,7 @@ PINK = "#FF6FA8"
 ORANGE = "#FF8A1F"
 VIOLET = "#7B5CFF"
 YELLOW = "#FFD43B"
+TEAL = "#2DD4BF"
 
 THEMES = {
     "light": dict(
@@ -151,18 +153,30 @@ def build(theme):
             + text(X0, 198, "removed with UiPath", 13, INK))
     svg("automation", theme, q, q, YELLOW, body, "15 hours of manual work a week removed with UiPath")
 
+    # Zenith (half, 220 tall)
+    w2 = 440
+    body = (f'<rect x="{X0}" y="{X0}" width="52" height="52" rx="14" fill="{WHITE}"/>'
+            f'<image href="{ZENITH}" x="{X0 + 8}" y="{X0 + 8}" width="36" height="36"/>'
+            + label(X0 + 66, X0 + 31, "AI APP · OPEN SOURCE", INK)
+            + arrow(w2 - X0 - 24, X0 + 2, INK)
+            + text(X0, 136, "Zenith", 34, INK, DISPLAY, 800, ls=-0.4)
+            + text(X0, 162, "Well-being companion: crisis screen first, HyDE", 14, INK)
+            + text(X0, 181, "retrieval over Qdrant, FastAPI + React.", 14, INK)
+            + text(X0, 205, "31 tests · CI on every push", 12.5, INK, weight=700, opacity=0.75))
+    svg("zenith", theme, w2, 220, TEAL, body, "Zenith: retrieval-grounded well-being companion")
+
+    # Contact (two halves, 220 tall)
     body = (label(X0, 48, "HIRING?", INK)
-            + text(X0, 140, "Email me", 28, INK, DISPLAY, 800)
-            + text(X0, 170, "omarbarghouti505", 13.5, INK, weight=700)
-            + text(X0, 188, "@gmail.com", 13.5, INK, weight=700)
-            + arrow(q - X0 - 24, X0 + 2, INK))
-    svg("email", theme, q, q, LIME, body, "Email omarbarghouti505@gmail.com")
+            + text(X0, 140, "Email me", 32, INK, DISPLAY, 800)
+            + text(X0, 176, "omarbarghouti505@gmail.com", 16, INK, weight=700)
+            + arrow(w2 - X0 - 24, X0 + 2, INK))
+    svg("email", theme, w2, 220, LIME, body, "Email omarbarghouti505@gmail.com")
 
     body = (label(X0, 48, "CONNECT", WHITE)
-            + text(X0, 140, "LinkedIn", 28, WHITE, DISPLAY, 800)
-            + text(X0, 170, "omar-albarghouthi", 13.5, WHITE, weight=700)
-            + arrow(q - X0 - 24, X0 + 2, WHITE))
-    svg("linkedin", theme, q, q, COBALT, body, "LinkedIn: omar-albarghouthi")
+            + text(X0, 140, "LinkedIn", 32, WHITE, DISPLAY, 800)
+            + text(X0, 176, "in/omar-albarghouthi", 16, WHITE, weight=700)
+            + arrow(w2 - X0 - 24, X0 + 2, WHITE))
+    svg("linkedin", theme, w2, 220, COBALT, body, "LinkedIn: omar-albarghouthi")
 
     # Open WebUI (half, 220 tall)
     body = (label(X0, 48, "OPEN-SOURCE CONTRIBUTION", INK)
