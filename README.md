@@ -29,14 +29,14 @@ Native Arabic speaker (Levantine and Gulf) working in English. Based in Amman, o
 |:--|:--|
 | **Multi-model AI assistant** (graduation project) | Python + LangChain over GPT, Claude, Gemini, DeepSeek and Kimi, with tool and function calling. Benchmarked the models side by side on identical prompts for cost per turn, latency and refusals, then routed on the results. Entered in the OpenAI GPT-OSS Hackathon, Oct 2025. |
 | [**snapback-cli**](https://github.com/ThisisOmar-here/snapback-cli) | A file-automation CLI: organise folders by type, bulk-rename by rule, find and remove duplicates. Preview-first; nothing changes without `--apply`. |
-| **Aseel Constructions website** | Bilingual Arabic/English (RTL) site for a Doha contractor, built for Google *and* for LLM answers (GEO). Google clicks 63 → 144 and 207 ranking queries in three months. |
+| **Aseel Constructions website** | Bilingual Arabic/English (RTL) site for a Doha contractor, built for Google *and* for LLM answers (GEO). Doubled the site's Google clicks within three months. |
 | **UiPath automations** (Xocialive internship) | 5+ RPA workflows for email and Excel processing that removed ~15 hours of manual work a week. |
 
 </details>
 
 <img src="assets/sec-numbers.svg" alt="In numbers" width="100%">
 
-<p align="center"><img src="assets/numbers.svg" alt="2,000+ GitHub contributions in 12 months · 500K+ organic visits · Google clicks 63 → 144 · 5 LLM providers benchmarked" width="100%"></p>
+<p align="center"><img src="assets/numbers.svg" alt="2,000+ GitHub contributions in 12 months · 500K+ organic visits · 15 hrs/week of manual work automated · 5 LLM providers benchmarked" width="100%"></p>
 
 <img src="assets/sec-how.svg" alt="How I work" width="100%">
 

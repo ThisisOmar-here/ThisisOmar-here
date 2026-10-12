@@ -158,7 +158,7 @@ def numbers():
     items = [
         ("2,000+", "contributions on GitHub", "in the last 12 months"),
         ("500K+", "organic visits", "Arabic tech blog I built"),
-        ("63 → 144", "Google clicks in 3 months", "SEO + GEO rebuild, Doha"),
+        ("15 hrs/week", "manual work removed", "UiPath automations, internship"),
         ("5", "LLM providers", "benchmarked side by side"),
     ]
     col = w / len(items)
@@ -173,7 +173,7 @@ def numbers():
         if i:
             out += f'<line x1="{col*i:.0f}" y1="40" x2="{col*i:.0f}" y2="136" stroke="{LINE}"/>'
     write("numbers.svg", f"""
-<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="2,000+ GitHub contributions in 12 months; 500K+ organic blog visits; Google clicks 63 to 144 in 3 months; 5 LLM providers benchmarked">
+<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="2,000+ GitHub contributions in 12 months; 500K+ organic blog visits; 15 hours a week of manual work automated; 5 LLM providers benchmarked">
   <title>Numbers</title>
   <rect x="0.5" y="0.5" width="{w-1}" height="{h-1}" rx="18" fill="{BG0}" stroke="{LINE}"/>
   {out}
