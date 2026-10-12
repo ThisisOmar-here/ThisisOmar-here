@@ -34,6 +34,12 @@ Native Arabic speaker (Levantine and Gulf) working in English. Based in Amman, o
 
 </details>
 
+<img src="assets/sec-oss.svg" alt="Open-source contributions" width="100%">
+
+| Project | Contribution | Status |
+|:--|:--|:--|
+| [**Open WebUI**](https://github.com/open-webui/open-webui) · one of the most-starred AI interfaces on GitHub | Completed the Arabic (`ar`, `ar-BH`) localisation: 463 missing strings, with Arabic plural forms and placeholders preserved · [PR #32289](https://github.com/open-webui/open-webui/pull/32289) | <a href="https://github.com/open-webui/open-webui/pull/32289"><img src="https://img.shields.io/github/pulls/detail/state/open-webui/open-webui/32289?label=PR&style=flat-square" alt="PR status"></a> |
+
 <img src="assets/sec-numbers.svg" alt="In numbers" width="100%">
 
 <p align="center"><img src="assets/numbers.svg" alt="2,000+ GitHub contributions in 12 months · 500K+ organic visits · 15 hrs/week of manual work automated · 5 LLM providers benchmarked" width="100%"></p>

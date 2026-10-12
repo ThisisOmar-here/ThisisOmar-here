@@ -283,3 +283,4 @@ if __name__ == "__main__":
     section("sec-how.svg", "How I work")
     section("sec-stack.svg", "Toolbox")
     section("sec-now.svg", "Right now")
+    section("sec-oss.svg", "Open-source contributions")
