@@ -27,6 +27,7 @@ FONT_CSS = (
     % (b64("bricolage-800.woff2"), b64("dmsans-400.woff2"), b64("dmsans-700.woff2"))
 )
 CLEANIQ = "data:image/png;base64," + b64("cleaniq-icon.png")
+NICETABLE = "data:image/png;base64," + b64("nicetable-icon.png")
 
 INK = "#141414"
 WHITE = "#FFFFFF"
@@ -102,10 +103,7 @@ def build(theme):
 
     # NiceTable (half, 300 tall)
     icon = (f'<rect x="{X0}" y="{X0}" width="52" height="52" rx="14" fill="{WHITE}"/>'
-            f'<g transform="translate({X0 + 11} {X0 + 11}) scale(1.25)" fill="none" stroke="{COBALT}" '
-            f'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'
-            f'<rect x="3" y="4" width="18" height="16" rx="2.5"/>'
-            f'<path d="M3 4h18v5H3z" fill="{COBALT}"/><path d="M3 14.5h18M9.5 9v11"/></g>')
+            f'<image href="{NICETABLE}" x="{X0 + 9}" y="{X0 + 9}" width="34" height="34"/>')
     body = (icon + label(X0 + 66, X0 + 31, "LIVE PRODUCT", WHITE) + arrow(w - X0 - 24, X0 + 2, WHITE)
             + text(X0, 196, "NiceTable", 38, WHITE, DISPLAY, 800, ls=-0.5)
             + text(X0, 226, "Paste messy text, get a clean table you can", 15, WHITE)
