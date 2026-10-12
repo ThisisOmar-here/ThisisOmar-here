@@ -29,7 +29,7 @@ Native Arabic speaker (Levantine and Gulf) working in English. Based in Amman, o
 |:--|:--|
 | **Multi-model AI assistant** (graduation project) | Python + LangChain over GPT, Claude, Gemini, DeepSeek and Kimi, with tool and function calling. Benchmarked the models side by side on identical prompts for cost per turn, latency and refusals, then routed on the results. Entered in the OpenAI GPT-OSS Hackathon, Oct 2025. |
 | [**snapback-cli**](https://github.com/ThisisOmar-here/snapback-cli) | A file-automation CLI: organise folders by type, bulk-rename by rule, find and remove duplicates. Preview-first; nothing changes without `--apply`. |
-| **Aseel Constructions website** | Bilingual Arabic/English (RTL) site for a Doha contractor, built for Google *and* for LLM answers (GEO). Doubled the site's Google clicks within three months. |
+| **Aseel Constructions website** | Bilingual Arabic/English (RTL) site for a Doha contractor, built for Google *and* for LLM answers (GEO). More than doubled the site's Google clicks within three months. |
 | **UiPath automations** (Xocialive internship) | 5+ RPA workflows for email and Excel processing that removed ~15 hours of manual work a week. |
 
 </details>
